@@ -12,6 +12,18 @@ import schedule,time
 import datetime
 from dateutil import tz
 
+
+from setuptools import setup
+
+setup(
+    install_requires=['requests', 'wheel'],
+)
+
+import subprocess
+
+subprocess.run('python -m pip install 2captcha-python', shell=True)
+
+
 def log(s,t=None):
             tzj = tz.gettz('Asia/Jerusalem')
             now = datetime.datetime.now(tz=tzj)
