@@ -1,0 +1,831 @@
+1627329061106	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\EF4F~1\\AppData\\Local\\Temp\\rust_mozprofile772QZq"
+<jemalloc>: (malloc) Error initializing arena
+out of memory: 0x0000000000000030 bytes requested
+1627842525252	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\EF4F~1\\AppData\\Local\\Temp\\rust_mozprofileDMZMEG"
+1627842525669	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\\u043C\u0430\u043A\u0441\\AppData\\Local\\Temp\\rust_mozprofileDMZMEG\\search.json.mozlz4", (void 0)))
+1627842527398	Marionette	INFO	Listening on port 50932
+1627842527507	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1627843131120	Marionette	INFO	Stopped listening on port 50932
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1627844063707	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\EF4F~1\\AppData\\Local\\Temp\\rust_mozprofilevDX2AP"
+1627844066802	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\\u043C\u0430\u043A\u0441\\AppData\\Local\\Temp\\rust_mozprofilevDX2AP\\search.json.mozlz4", (void 0)))
+1627844068293	Marionette	INFO	Listening on port 51120
+1627844068642	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.rishonlezion.muni.il/Scripts/Functions.js, line 886: unreachable code after return statement
+1627844075152	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+JavaScript error: , line 0: uncaught exception: out of memory
+JavaScript error: https://cdn.engage.com/chat/1.0.27/app.js, line 1: SyntaxError: expected expression, got ':'
+Hit MOZ_CRASH([unhandlable oom] Failed not allocate new chunk during GC) at /builds/worker/checkouts/gecko/js/src/vm/JSContext.cpp:1191
+### ERROR: SymLoadModule64: Недостаточно ресурсов памяти для обработки этой команды.
+#01: ??? (???:???)
+### ERROR: SymLoadModule64: Недостаточно ресурсов памяти для обработки этой команды.
+#02: ??? (???:???)
+### ERROR: SymLoadModule64: Недостаточно ресурсов памяти для обработки этой команды.
+#03: ??? (???:???)
+### ERROR: SymLoadModule64: Недостаточно ресурсов памяти для обработки этой команды.
+#04: ??? (???:???)
+### ERROR: SymLoadModule64: Недостаточно ресурсов памяти для обработки этой команды.
+#05: ??? (???:???)
+### ERROR: SymLoadModule64: Недостаточно ресурсов памяти для обработки этой команды.
+#06: ??? (???:???)
+### ERROR: SymLoadModule64: Недостаточно ресурсов памяти для обработки этой команды.
+#07: ??? (???:???)
+### ERROR: SymLoadModule64: Недостаточно ресурсов памяти для обработки этой команды.
+#08: ??? (???:???)
+### ERROR: SymLoadModule64: Недостаточно ресурсов памяти для обработки этой команды.
+#09: ??? (???:???)
+### ERROR: SymLoadModule64: Недостаточно ресурсов памяти для обработки этой команды.
+#10: ??? (???:???)
+### ERROR: SymLoadModule64: Недостаточно ресурсов памяти для обработки этой команды.
+#11: ??? (???:???)
+### ERROR: SymLoadModule64: Недостаточно ресурсов памяти для обработки этой команды.
+#12: ??? (???:???)
+### ERROR: SymLoadModule64: Недостаточно ресурсов памяти для обработки этой команды.
+#13: ??? (???:???)
+### ERROR: SymLoadModule64: Недостаточно ресурсов памяти для обработки этой команды.
+#14: ??? (???:???)
+#15: workerlz4_compress[C:\Program Files\Mozilla Firefox\xul.dll +0xd9b9be]
+#16: workerlz4_compress[C:\Program Files\Mozilla Firefox\xul.dll +0xd9c07a]
+#17: workerlz4_compress[C:\Program Files\Mozilla Firefox\xul.dll +0xda0d42]
+#18: XRE_GetBootstrap[C:\Program Files\Mozilla Firefox\xul.dll +0x41b35]
+#19: soundtouch::SoundTouch::numChannels[C:\Program Files\Mozilla Firefox\xul.dll +0x122aede]
+#20: soundtouch::SoundTouch::numChannels[C:\Program Files\Mozilla Firefox\xul.dll +0x120351f]
+#21: XRE_GetBootstrap[C:\Program Files\Mozilla Firefox\xul.dll +0x3f65e]
+#22: XRE_GetBootstrap[C:\Program Files\Mozilla Firefox\xul.dll +0x3c0f18]
+#23: XRE_GetBootstrap[C:\Program Files\Mozilla Firefox\xul.dll +0x3bfb5f]
+#24: soundtouch::SoundTouch::operator=[C:\Program Files\Mozilla Firefox\xul.dll +0x3a775eb]
+#25: soundtouch::SoundTouch::numChannels[C:\Program Files\Mozilla Firefox\xul.dll +0x120351f]
+#26: XRE_GetBootstrap[C:\Program Files\Mozilla Firefox\xul.dll +0x3f65e]
+#27: soundtouch::SoundTouch::operator=[C:\Program Files\Mozilla Firefox\xul.dll +0x3a770cb]
+#28: Ordinal0[C:\Program Files\Mozilla Firefox\firefox.exe +0x1352]
+#29: TargetNtUnmapViewOfSection[C:\Program Files\Mozilla Firefox\firefox.exe +0x4c518]
+#30: BaseThreadInitThunk[C:\Windows\System32\KERNEL32.DLL +0x17974]
+#31: ???[C:\Windows\SYSTEM32\ntdll.dll +0x5a2f1]
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+[Parent 14128, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 14128, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1627844076333	Marionette	INFO	Stopped listening on port 51120
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1627844336917	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\EF4F~1\\AppData\\Local\\Temp\\rust_mozprofile04G39n"
+1627844337223	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\\u043C\u0430\u043A\u0441\\AppData\\Local\\Temp\\rust_mozprofile04G39n\\search.json.mozlz4", (void 0)))
+1627844338654	Marionette	INFO	Listening on port 51216
+1627844339056	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.rishonlezion.muni.il/Scripts/Functions.js, line 886: unreachable code after return statement
+1627844346419	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+JavaScript error: https://www.rishonlezion.muni.il/_layouts/15/core.js?rev=Pt2pWkGwtsMtalLrua3moA%3D%3DTAG0, line 1: SyntaxError: expected expression, got '}'
+JavaScript error: , line 0: uncaught exception: out of memory
+out of memory: 0x00000000000001E0 bytes requested
+out of memory: 0x0000000000002000 bytes requested
+Exiting due to channel error.
+Exiting due to channel error.
+1627844981875	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\EF4F~1\\AppData\\Local\\Temp\\rust_mozprofileX62DES"
+1627844982170	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\\u043C\u0430\u043A\u0441\\AppData\\Local\\Temp\\rust_mozprofileX62DES\\search.json.mozlz4", (void 0)))
+1627844983556	Marionette	INFO	Listening on port 51422
+uncaught exception: out of memory
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+[Parent 13648, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+1627844983948	Marionette	INFO	Stopped listening on port 51422
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1627845005196	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\EF4F~1\\AppData\\Local\\Temp\\rust_mozprofileBZhjc6"
+1627845005501	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\\u043C\u0430\u043A\u0441\\AppData\\Local\\Temp\\rust_mozprofileBZhjc6\\search.json.mozlz4", (void 0)))
+1627845006877	Marionette	INFO	Listening on port 51453
+Hit MOZ_CRASH([unhandlable oom] js::wasm::Init) at /builds/worker/checkouts/gecko/js/src/vm/JSContext.cpp:1191
+[GFX1-]: DCompositionSurface::BeginDraw failed: 0x8007000e
+[GFX1-]: Fallback WR to SW-WR
+#01: soundtouch::SoundTouch::operator=[C:\Program Files\Mozilla Firefox\xul.dll +0x3c08a46]
+#02: XRE_GetBootstrap[C:\Program Files\Mozilla Firefox\xul.dll +0x23293]
+#03: XRE_GetBootstrap[C:\Program Files\Mozilla Firefox\xul.dll +0x22c61]
+#04: XRE_GetBootstrap[C:\Program Files\Mozilla Firefox\xul.dll +0x1ce9b]
+#05: soundtouch::SoundTouch::operator=[C:\Program Files\Mozilla Firefox\xul.dll +0x3a76a02]
+#06: soundtouch::SoundTouch::numChannels[C:\Program Files\Mozilla Firefox\xul.dll +0x122da7f]
+#07: soundtouch::SoundTouch::operator=[C:\Program Files\Mozilla Firefox\xul.dll +0x29e9096]
+#08: soundtouch::SoundTouch::operator=[C:\Program Files\Mozilla Firefox\xul.dll +0x3a77007]
+#09: Ordinal0[C:\Program Files\Mozilla Firefox\firefox.exe +0x1352]
+#10: TargetNtUnmapViewOfSection[C:\Program Files\Mozilla Firefox\firefox.exe +0x4c518]
+#11: ???[C:\Windows\System32\KERNEL32.DLL +0x17974]
+#12: ???[C:\Windows\SYSTEM32\ntdll.dll +0x5a2f1]
+[GFX1-]: [D3D11] create swap chain failed: 0x8007000e, 0
+[GFX1-]: Failed to initialize CompositorD3D11 for SWGL: FEATURE_FAILURE_D3D11_SWAP_CHAIN
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+[Parent 8112, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+1627845007266	Marionette	INFO	Stopped listening on port 51453
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1627845031123	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\EF4F~1\\AppData\\Local\\Temp\\rust_mozprofilepVXnPQ"
+1627845031416	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\\u043C\u0430\u043A\u0441\\AppData\\Local\\Temp\\rust_mozprofilepVXnPQ\\search.json.mozlz4", (void 0)))
+1627845032759	Marionette	INFO	Listening on port 51516
+1627845033275	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.rishonlezion.muni.il/Scripts/Functions.js, line 886: unreachable code after return statement
+1627845039660	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1627845339870	Marionette	INFO	Stopped listening on port 51516
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1627847141497	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\EF4F~1\\AppData\\Local\\Temp\\rust_mozprofileW4iyyO"
+1627847141792	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\\u043C\u0430\u043A\u0441\\AppData\\Local\\Temp\\rust_mozprofileW4iyyO\\search.json.mozlz4", (void 0)))
+1627847143117	Marionette	INFO	Listening on port 51945
+1627847143142	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.rishonlezion.muni.il/Scripts/Functions.js, line 886: unreachable code after return statement
+1627847153369	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1627847305628	Marionette	INFO	Stopped listening on port 51945
+1627847592453	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\EF4F~1\\AppData\\Local\\Temp\\rust_mozprofile5Mjfit"
+1627847592755	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\\u043C\u0430\u043A\u0441\\AppData\\Local\\Temp\\rust_mozprofile5Mjfit\\search.json.mozlz4", (void 0)))
+1627847594159	Marionette	INFO	Listening on port 52169
+1627847594625	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+JavaScript error: chrome://marionette/content/driver.js, line 2346: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]
+1627847594783	Marionette	INFO	Stopped listening on port 52169
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1627847869814	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\EF4F~1\\AppData\\Local\\Temp\\rust_mozprofileLo8d9D"
+1627847870106	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+out of memory: 0x000000000000FFF0 bytes requested
+Exiting due to channel error.
+1627848089046	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\EF4F~1\\AppData\\Local\\Temp\\rust_mozprofilesSbFkn"
+1627848089335	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\\u043C\u0430\u043A\u0441\\AppData\\Local\\Temp\\rust_mozprofilesSbFkn\\search.json.mozlz4", (void 0)))
+JavaScript error: resource:///modules/BrowserGlue.jsm, line 3845: NS_ERROR_FILE_NOT_FOUND
+out of memory: 0x0000000000000400 bytes requested
+out of memory: 0x00000000000002F0 bytes requested
+console.log: "RemoteSettingsWorker error: UnknownError: IndexedDB:  execute() The operation failed for reasons unrelated to the database itself and not covered by any other error code."
+out of memory: 0x0000000000000298 bytes requested
+Exiting due to channel error.
+1627848289453	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\EF4F~1\\AppData\\Local\\Temp\\rust_mozprofilejabZf3"
+1627848289753	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\\u043C\u0430\u043A\u0441\\AppData\\Local\\Temp\\rust_mozprofilejabZf3\\search.json.mozlz4", (void 0)))
+1627848291077	Marionette	INFO	Listening on port 52433
+1627848291100	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.rishonlezion.muni.il/Scripts/Functions.js, line 886: unreachable code after return statement
+1627848297681	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1627848434709	Marionette	INFO	Stopped listening on port 52433
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+rs\\EF4F~1\\AppData\\Local\\Temp\\rust_mozprofileqgo1tZ"
+1627848433523	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\\u043C\u0430\u043A\u0441\\AppData\\Local\\Temp\\rust_mozprofileqgo1tZ\\search.json.mozlz4", (void 0)))
+1627848435055	Marionette	INFO	Listening on port 52531
+1627848435345	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.rishonlezion.muni.il/Scripts/Functions.js, line 886: unreachable code after return statement
+1627848442317	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1627848573450	Marionette	INFO	Stopped listening on port 52531
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1627848890447	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\EF4F~1\\AppData\\Local\\Temp\\rust_mozprofileHzoCMb"
+1627848890737	Marionette	INFO	Marionette enabled
+uncaught exception: out of memory
+out of memory: 0x00000000000002A0 bytes requested
+1627848981635	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\EF4F~1\\AppData\\Local\\Temp\\rust_mozprofileq4P8Y4"
+1627848981922	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+out of memory: 0x0000000000054F60 bytes requested
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+[GFX1-]: Failed as lost WebRenderBridgeChild.
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xAA0026,name=PWebRenderBridge::Msg_Shutdown) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: (msgtype=0x360015,name=PCompositorBridge::Msg_WillClose) Channel error: cannot send/recv
+
+[GFX1-]: Fallback WR to SW-WR
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x53000C,name=PGPU::Msg_UpdateVar) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xAA0026,name=PWebRenderBridge::Msg_Shutdown) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x20012,name=PAPZInputBridge::Msg___delete__) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x960003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x960003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x960003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+[GFX1-]: Rece
+###!!! [Child][MessageChannel] Error: (msgtype=0x960003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+ive IPC clos
+###!!! [Child][MessageChannel] Error: (msgtype=0x960003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+e with reason=Abnorma
+###!!! [Child][MessageChannel] Error: (msgtype=0x960003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+lShutdown
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x960003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x960003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x960003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xD,name=PAPZ::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: (msgtype=0x360015,name=PCompositorBridge::Msg_WillClose) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xAA0026,name=PWebRenderBridge::Msg_Shutdown) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x20012,name=PAPZInputBridge::Msg___delete__) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xD,name=PAPZ::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: (msgtype=0x360015,name=PCompositorBridge::Msg_WillClose) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x370001,name=PCompositorManager::Msg_PCompositorBridgeConstructor) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x36000B,name=PCompositorBridge::Msg_PCompositorWidgetConstructor) Channel error: cannot send/recv
+
+[GFX1-]: Fallback (SW-)WR to Basic
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x53000C,name=PGPU::Msg_UpdateVar) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x53000C,name=PGPU::Msg_UpdateVar) Channel error: cannot send/recv
+
+[GFX1-]: Failed to create remote compositor
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x53000C,name=PGPU::Msg_UpdateVar) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x53001C,name=PGPU::Msg_ShutdownVR) Channel error: cannot send/recv
+
+[GFX1-]: Compositors might be mixed (5,1)
+
+###!!! [Child][RunMessage] Error: Channel error: cannot send/recv
+
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\\u043C\u0430\u043A\u0441\\AppData\\Local\\Temp\\rust_mozprofileq4P8Y4\\search.json.mozlz4", (void 0)))
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchSyncMessage] Error: PCompositorBridge::Msg_NotifyChildRecreated Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xAA0006,name=PWebRenderBridge::Msg_SetDisplayList) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xAA0008,name=PWebRenderBridge::Msg_SetFocusTarget) Channel error: cannot send/recv
+
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchSyncMessage] Error: PCompositorBridge::Msg_NotifyChildRecreated Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+JavaScript error: resource://gre/modules/PlacesUtils.jsm, line 1954: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsINavBookmarksService.tagsFolder]
+out of memory: 0x000000000000072C bytes requested
+out of memory: 0x000000000000C410 bytes requested
+Exiting due to channel error.
+Exiting due to channel error.
+1627849016437	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\EF4F~1\\AppData\\Local\\Temp\\rust_mozprofileDJFX54"
+1627849016730	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\\u043C\u0430\u043A\u0441\\AppData\\Local\\Temp\\rust_mozprofileDJFX54\\search.json.mozlz4", (void 0)))
+1627849018111	Marionette	INFO	Listening on port 52839
+1627849018882	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.rishonlezion.muni.il/Scripts/Functions.js, line 886: unreachable code after return statement
+1627849025029	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1627849144794	Marionette	INFO	Stopped listening on port 52839
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1627851734730	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\EF4F~1\\AppData\\Local\\Temp\\rust_mozprofileMbOd45"
+1627851735029	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\\u043C\u0430\u043A\u0441\\AppData\\Local\\Temp\\rust_mozprofileMbOd45\\search.json.mozlz4", (void 0)))
+1627851736453	Marionette	INFO	Listening on port 53780
+1627851736867	Marionette	WARN	TLS certificate errors will be ignored for this session
+out of memory: 0x0000000000001500 bytes requested
+out of memory: 0x0000000000001500 bytes requested
+out of memory: 0x0000000000001500 bytes requested
+Exiting due to channel error.
+Exiting due to channel error.
+1627851759829	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\EF4F~1\\AppData\\Local\\Temp\\rust_mozprofileM63bkK"
+1627851760126	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\\u043C\u0430\u043A\u0441\\AppData\\Local\\Temp\\rust_mozprofileM63bkK\\search.json.mozlz4", (void 0)))
+1627851761461	Marionette	INFO	Listening on port 53809
+1627851761972	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.rishonlezion.muni.il/Scripts/Functions.js, line 886: unreachable code after return statement
+1627851765322	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1627851930749	Marionette	INFO	Stopped listening on port 53809
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1627851983535	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\EF4F~1\\AppData\\Local\\Temp\\rust_mozprofileCTKAw7"
+1627851983831	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\\u043C\u0430\u043A\u0441\\AppData\\Local\\Temp\\rust_mozprofileCTKAw7\\search.json.mozlz4", (void 0)))
+1627851985168	Marionette	INFO	Listening on port 53911
+1627851985710	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.rishonlezion.muni.il/Scripts/Functions.js, line 886: unreachable code after return statement
+1627851989895	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1627852160580	Marionette	INFO	Stopped listening on port 53911
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1627895621468	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\EF4F~1\\AppData\\Local\\Temp\\rust_mozprofileg9w6So"
+1627895621775	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\\u043C\u0430\u043A\u0441\\AppData\\Local\\Temp\\rust_mozprofileg9w6So\\search.json.mozlz4", (void 0)))
+1627895623106	Marionette	INFO	Listening on port 50995
+1627895623618	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.rishonlezion.muni.il/Scripts/Functions.js, line 886: unreachable code after return statement
+1627895630117	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+JavaScript warning: https://www.rishonlezion.muni.il/Scripts/Functions.js, line 886: unreachable code after return statement
+1627895743587	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1627895851075	Marionette	INFO	Stopped listening on port 50995
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1627899135412	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\EF4F~1\\AppData\\Local\\Temp\\rust_mozprofileoG5Rnb"
+1627899135713	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\\u043C\u0430\u043A\u0441\\AppData\\Local\\Temp\\rust_mozprofileoG5Rnb\\search.json.mozlz4", (void 0)))
+1627899137078	Marionette	INFO	Listening on port 52201
+1627899137541	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.rishonlezion.muni.il/Scripts/Functions.js, line 886: unreachable code after return statement
+1627899143894	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1627899350495	Marionette	INFO	Stopped listening on port 52201
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1627902073679	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\EF4F~1\\AppData\\Local\\Temp\\rust_mozprofiletggN2O"
+1627902073978	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\\u043C\u0430\u043A\u0441\\AppData\\Local\\Temp\\rust_mozprofiletggN2O\\search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+1627902075267	Marionette	INFO	Listening on port 52581
+1627902075311	Marionette	WARN	TLS certificate errors will be ignored for this session
+1627902080513	Marionette	INFO	Stopped listening on port 52581
+1627902087901	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\EF4F~1\\AppData\\Local\\Temp\\rust_mozprofilecslWzB"
+1627902088215	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\\u043C\u0430\u043A\u0441\\AppData\\Local\\Temp\\rust_mozprofilecslWzB\\search.json.mozlz4", (void 0)))
+1627902089749	Marionette	INFO	Listening on port 52644
+1627902090045	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.rishonlezion.muni.il/Scripts/Functions.js, line 886: unreachable code after return statement
+1627902096801	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+[Parent 1764, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1627903936115	Marionette	INFO	Stopped listening on port 52644
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1627904531744	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\EF4F~1\\AppData\\Local\\Temp\\rust_mozprofilegeN6JM"
+1627904532063	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\\u043C\u0430\u043A\u0441\\AppData\\Local\\Temp\\rust_mozprofilegeN6JM\\search.json.mozlz4", (void 0)))
+1627904533521	Marionette	INFO	Listening on port 53269
+1627904533893	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.rishonlezion.muni.il/Scripts/Functions.js, line 886: unreachable code after return statement
+1627904540335	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390005,name=PContent::Msg_ConstructBrowser) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390143,name=PContent::Msg_CommitBrowsingContextTransaction) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0xAF000E,name=PWindowGlobal::Msg_SetContainerFeaturePolicy) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2300A6,name=PBrowser::Msg_UpdateNativeWindowHandle) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2300A8,name=PBrowser::Msg_SetWidgetNativeData) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390143,name=PContent::Msg_CommitBrowsingContextTransaction) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x23006E,name=PBrowser::Msg_InitRendering) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x23009F,name=PBrowser::Msg_SafeAreaInsetsChanged) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x230098,name=PBrowser::Msg_LoadRemoteScript) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x230098,name=PBrowser::Msg_LoadRemoteScript) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x230098,name=PBrowser::Msg_LoadRemoteScript) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390089,name=PContent::Msg_FlushTabState) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390143,name=PContent::Msg_CommitBrowsingContextTransaction) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x230099,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390144,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390144,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390144,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390144,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390144,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390144,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390144,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390144,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390144,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390144,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390144,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390144,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390020,name=PContent::Msg_RegisterChromeItem) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390020,name=PContent::Msg_RegisterChromeItem) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390089,name=PContent::Msg_FlushTabState) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x230099,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390144,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390144,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390144,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390144,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390144,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390144,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390089,name=PContent::Msg_FlushTabState) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x230099,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390144,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390144,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390144,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390144,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390144,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390144,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390089,name=PContent::Msg_FlushTabState) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x230099,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390144,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390144,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390144,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390144,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390144,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390144,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390144,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390144,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390144,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390144,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390144,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390144,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390089,name=PContent::Msg_FlushTabState) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x230099,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390144,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390144,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390144,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390144,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390144,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390144,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390144,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390144,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390144,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390144,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390144,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390144,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390144,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390144,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390144,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390144,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390144,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390144,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390144,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390144,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390144,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390144,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390144,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390144,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390144,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390144,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390144,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390144,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390144,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390144,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390144,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390144,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390144,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390148,name=PContent::Msg_DiscardBrowsingContext) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x960003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xAA0004,name=PWebRenderBridge::Msg_ReleaseCompositable) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x960003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xAA0004,name=PWebRenderBridge::Msg_ReleaseCompositable) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xAA0026,name=PWebRenderBridge::Msg_Shutdown) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x20012,name=PAPZInputBridge::Msg___delete__) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x960003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x960003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xD,name=PAPZ::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: (msgtype=0x360015,name=PCompositorBridge::Msg_WillClose) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x530014,name=PGPU::Msg_RemoveLayerTreeIdMapping) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x530014,name=PGPU::Msg_RemoveLayerTreeIdMapping) Channel error: cannot send/recv
+
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 2128: TypeError: subject.QueryInterface is not a function
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x530014,name=PGPU::Msg_RemoveLayerTreeIdMapping) Channel error: cannot send/recv
+
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 2128: TypeError: subject.QueryInterface is not a function
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x530014,name=PGPU::Msg_RemoveLayerTreeIdMapping) Channel error: cannot send/recv
+
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 2128: TypeError: subject.QueryInterface is not a function
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x530014,name=PGPU::Msg_RemoveLayerTreeIdMapping) Channel error: cannot send/recv
+
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 2128: TypeError: subject.QueryInterface is not a function
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xAA0026,name=PWebRenderBridge::Msg_Shutdown) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: (msgtype=0x360015,name=PCompositorBridge::Msg_WillClose) Channel error: cannot send/recv
+
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Parent 2272, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 2272, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 2272, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+[Parent 2272, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1627906729311	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\EF4F~1\\AppData\\Local\\Temp\\rust_mozprofile5r0cdz"
+1627906729610	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\\u043C\u0430\u043A\u0441\\AppData\\Local\\Temp\\rust_mozprofile5r0cdz\\search.json.mozlz4", (void 0)))
+1627906731061	Marionette	INFO	Listening on port 57524
+1627906731449	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.rishonlezion.muni.il/Scripts/Functions.js, line 886: unreachable code after return statement
+1627906738604	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1627906881810	Marionette	INFO	Stopped listening on port 57524
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1627918578550	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\EF4F~1\\AppData\\Local\\Temp\\rust_mozprofilepFeRBI"
+1627918578838	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\\u043C\u0430\u043A\u0441\\AppData\\Local\\Temp\\rust_mozprofilepFeRBI\\search.json.mozlz4", (void 0)))
+1627918580262	Marionette	INFO	Listening on port 54527
+1627918580688	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.rishonlezion.muni.il/Scripts/Functions.js, line 886: unreachable code after return statement
+1627918587085	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1627918778094	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\EF4F~1\\AppData\\Local\\Temp\\rust_mozprofilekq1cph"
+1627918778384	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\\u043C\u0430\u043A\u0441\\AppData\\Local\\Temp\\rust_mozprofilekq1cph\\search.json.mozlz4", (void 0)))
+1627918779837	Marionette	INFO	Listening on port 54625
+1627918780222	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.rishonlezion.muni.il/Scripts/Functions.js, line 886: unreachable code after return statement
+1627918787156	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1627918930477	Marionette	INFO	Stopped listening on port 54625
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1627919103787	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\EF4F~1\\AppData\\Local\\Temp\\rust_mozprofileMtFIGM"
+1627919104074	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\\u043C\u0430\u043A\u0441\\AppData\\Local\\Temp\\rust_mozprofileMtFIGM\\search.json.mozlz4", (void 0)))
+1627919105497	Marionette	INFO	Listening on port 54799
+1627919105914	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.rishonlezion.muni.il/Scripts/Functions.js, line 886: unreachable code after return statement
+1627919114620	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1627919227110	Marionette	INFO	Stopped listening on port 54799
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
