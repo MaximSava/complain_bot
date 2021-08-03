@@ -29,10 +29,9 @@ import requests
 from requests.packages.urllib3.exceptions import InsecureRequestWarning
 requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
 
-from bs4 import BeautifulSoup as BS
+
 import time
 import random
-import emoji
 
 import sys
 import os
