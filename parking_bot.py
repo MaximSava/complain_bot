@@ -253,7 +253,7 @@ class Get_Data:
             driver.find_element_by_xpath(xpath_telefon_nusaf).send_keys('1111111')
             
             #click on button send form
-            #driver.find_element_by_xpath(xpath_button_send_form).click()
+            driver.find_element_by_xpath(xpath_button_send_form).click()
             sleep(5)
             driver.close
 
