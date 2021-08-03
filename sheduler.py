@@ -5,8 +5,6 @@ Created on Sun Aug  1 21:25:48 2021
 @author: макс
 """
 
-from apscheduler.schedulers.background import BackgroundScheduler
-from pytz import utc,timezone,country_timezones
 import parking_bot as pb
 import schedule,time
 import datetime
