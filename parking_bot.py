@@ -143,7 +143,7 @@ class Get_Data:
         capabilities = webdriver.DesiredCapabilities.FIREFOX
         capabilities['marionette'] = True
         
-        binary = FirefoxBinary(os.environ.get=("FIREFOX_BIN"))
+        binary = FirefoxBinary(os.environ.get("FIREFOX_BIN"))
         options = Options()
         options.set_headless(headless=True)
         options.binary = binary
