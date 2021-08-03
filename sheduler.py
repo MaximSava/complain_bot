@@ -25,7 +25,7 @@ if __name__ == '__main__':
     schedule.every().monday.at("12:45").do(sf.send_form_setup)
     schedule.every().monday.at("15:00").do(sf.send_form_setup)
     schedule.every().tuesday.at("13:00").do(sf.send_form_setup)
-    schedule.every().tuesday.at("15:00").do(sf.send_form_setup)
+    schedule.every().tuesday.at("15:50").do(sf.send_form_setup)
     schedule.every().wednesday.at("12:45").do(sf.send_form_setup)
     schedule.every().wednesday.at("15:00").do(sf.send_form_setup)
     schedule.every().thursday.at("13:45").do(sf.send_form_setup)
