@@ -38,7 +38,6 @@ import os
 from twocaptcha import TwoCaptcha
 import urllib
 
-from apscheduler.schedulers.background import BackgroundScheduler
 from pytz import utc,timezone,country_timezones
 
 
