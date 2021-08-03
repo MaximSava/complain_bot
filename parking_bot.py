@@ -143,14 +143,15 @@ class Get_Data:
         capabilities = webdriver.DesiredCapabilities.FIREFOX
         capabilities['marionette'] = True
         
-        binary = FirefoxBinary(r"C:\Program Files\Mozilla Firefox\firefox.exe")
+        binary = FirefoxBinary("FIREFOX_BIN")
         options = Options()
         options.set_headless(headless=True)
         options.binary = binary
-        fp_profile = r"C:\Users\макс\AppData\Local\Mozilla\Firefox\Profiles\v6axkke0.default"
-        fp = webdriver.FirefoxProfile(fp_profile)
-        #profile = webdriver.FirefoxProfile(fp)         
-        driver = webdriver.Firefox(firefox_options=options,options=options,capabilities=capabilities, firefox_profile=fp, executable_path = 'geckodriver')
+        #fp_profile = r"C:\Users\макс\AppData\Local\Mozilla\Firefox\Profiles\v6axkke0.default"
+        #fp = webdriver.FirefoxProfile(fp_profile)
+        #profile = webdriver.FirefoxProfile(fp) 
+        #firefox_profile=fp        
+        driver = webdriver.Firefox(firefox_options=options,options=options,capabilities=capabilities, executable_path = 'GECKODRIVER_PATH')
         driver.set_window_size(1280, 1024)
         
         driver.get(url)
@@ -273,8 +274,7 @@ class Get_Data:
         
     def __call__(self):
         self.send_form_setup()
-         
-         
+             
 '''
 if __name__ == '__main__':
     
