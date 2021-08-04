@@ -143,7 +143,7 @@ class Get_Data:
         capabilities = webdriver.DesiredCapabilities.FIREFOX
         capabilities['marionette'] = True
         
-        binary = FirefoxBinary("FIREFOX_BIN")
+        binary = FirefoxBinary("firefox")
         #binary = FirefoxBinary(os.environ.get("FIREFOX_BIN"))
         #binary = FirefoxBinary(r"C:\Users\макс\AppData\Local\Mozilla Firefox\firefox.exe")
         options = Options()
