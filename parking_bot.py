@@ -144,6 +144,7 @@ class Get_Data:
         capabilities['marionette'] = True
         
         binary = FirefoxBinary(os.environ.get("FIREFOX_BIN"))
+        #binary = FirefoxBinary(r"C:\Users\макс\AppData\Local\Mozilla Firefox\firefox.exe")
         options = Options()
         options.set_headless(headless=False)
         options.binary = binary
@@ -152,6 +153,7 @@ class Get_Data:
         #profile = webdriver.FirefoxProfile(fp) 
         #firefox_profile=fp        
         driver = webdriver.Firefox(firefox_options=options,options=options,capabilities=capabilities, executable_path = os.environ.get('GECKODRIVER_PATH'))
+        #driver = webdriver.Firefox(firefox_options=options,options=options,capabilities=capabilities, executable_path ='geckodriver.exe')
         driver.set_window_size(1280, 1024)
         
         driver.get(url)
@@ -288,5 +290,6 @@ else:
     print('File not executed')    
     
 '''    
-
+#driver = Get_Data().setup_selenium(url_moked)
+#captcha_solve = Get_Data().captcha_bypass(driver,url_with_captcha,key)
             
