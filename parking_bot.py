@@ -143,7 +143,7 @@ class Get_Data:
         capabilities = webdriver.DesiredCapabilities.FIREFOX
         capabilities['marionette'] = True
         
-        binary = FirefoxBinary("firefox")
+        binary = FirefoxBinary("FIREFOX_BIN")
         #binary = FirefoxBinary(os.environ.get("FIREFOX_BIN"))
         #binary = FirefoxBinary(r"C:\Users\макс\AppData\Local\Mozilla Firefox\firefox.exe")
         options = Options()
@@ -154,7 +154,7 @@ class Get_Data:
         #profile = webdriver.FirefoxProfile(fp) 
         #firefox_profile=fp        
         #driver = webdriver.Firefox(firefox_options=options,options=options,capabilities=capabilities, executable_path = os.environ.get('GECKODRIVER_PATH'))
-        driver = webdriver.Firefox(firefox_options=options,options=options,capabilities=capabilities, executable_path ='geckodriver')
+        driver = webdriver.Firefox(firefox_options=options,options=options,capabilities=capabilities, executable_path ='GECKODRIVER_PATH')
         driver.set_window_size(1280, 1024)
         
         driver.get(url)
