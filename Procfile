@@ -1,1 +1,1 @@
-worker: python sheduler.py
+worker: python parking_bot.py

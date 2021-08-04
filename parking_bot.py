@@ -146,7 +146,7 @@ class Get_Data:
         binary = FirefoxBinary(os.environ.get("FIREFOX_BIN"))
         #binary = FirefoxBinary(r"C:\Users\макс\AppData\Local\Mozilla Firefox\firefox.exe")
         options = Options()
-        options.set_headless(headless=True)
+        options.set_headless(headless=False)
         options.binary = binary
         #fp_profile = r"C:\Users\макс\AppData\Local\Mozilla\Firefox\Profiles\v6axkke0.default"
         #fp = webdriver.FirefoxProfile(fp_profile)
@@ -255,8 +255,9 @@ class Get_Data:
             driver.find_element_by_xpath(xpath_telefon_nusaf).send_keys('1111111')
             
             #click on button send form
-            driver.find_element_by_xpath(xpath_button_send_form).click()
+            #driver.find_element_by_xpath(xpath_button_send_form).click()
             sleep(5)
+            print('form sended')
             driver.close
 
 
@@ -277,15 +278,16 @@ class Get_Data:
     def __call__(self):
         self.send_form_setup()
              
-'''
+
 if __name__ == '__main__':
     
-    sched = BackgroundScheduler(daemon=True)
-    il_timezone = timezone('Asia/Jerusalem')
-    sf = Get_Data()
+    Get_Data().send_form_setup()
+    #sched = BackgroundScheduler(daemon=True)
+    #il_timezone = timezone('Asia/Jerusalem')
+    #sf = Get_Data()
     
-    sched.add_job(sf.send_form_setup,'cron',day_of_week='0-4,6',hour = '11,15',timezone = il_timezone)
-    sched.start()
+    #sched.add_job(sf.send_form_setup,'cron',day_of_week='0-4,6',hour = '11,15',timezone = il_timezone)
+    #sched.start()
 else:
     print('File not executed')    
     
@@ -293,3 +295,4 @@ else:
 #driver = Get_Data().setup_selenium(url_moked)
 #captcha_solve = Get_Data().captcha_bypass(driver,url_with_captcha,key)
             
+'''

@@ -829,3 +829,46 @@ JavaScript warning: https://www.rishonlezion.muni.il/Scripts/Functions.js, line 
 
 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
+1628102367574	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\EF4F~1\\AppData\\Local\\Temp\\rust_mozprofileSqapKm"
+*** You are running in headless mode.
+1628102368211	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\\u043C\u0430\u043A\u0441\\AppData\\Local\\Temp\\rust_mozprofileSqapKm\\search.json.mozlz4", (void 0)))
+1628102369270	Marionette	INFO	Listening on port 53603
+1628102369697	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.rishonlezion.muni.il/Scripts/Functions.js, line 886: unreachable code after return statement
+[GFX1-]: Failed buffer for 0, 0, 1263, 2627
+1628102376645	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+[GFX1-]: Failed buffer for 0, 0, 1263, 2472
+[GFX1-]: Failed buffer for 0, 0, 1263, 2472
+[GFX1-]: Failed buffer for 0, 0, 1263, 2472
+[GFX1-]: Failed buffer for 0, 0, 1263, 2472
+[GFX1-]: Failed buffer for 0, 0, 1263, 2472
+JavaScript error: , line 0: uncaught exception: out of memory
+JavaScript error: https://www.rishonlezion.muni.il/_layouts/15/core.js?rev=Pt2pWkGwtsMtalLrua3moA%3D%3DTAG0, line 1: SyntaxError: expected expression, got '}'
+[GFX1-]: Failed buffer for 0, 0, 1263, 2472
+[GFX1-]: Failed buffer for 0, 0, 1263, 2592
+out of memory: 0x0000000000002000 bytes requested
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC cl1628102538891	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\EF4F~1\\AppData\\Local\\Temp\\rust_mozprofile5tW1yq"
+1628102539240	Marionette	INFO	Marionette enabled
+out of memory: 0x0000000000000078 bytes requested
+JavaScript error: chrome://browser/content/downloads/indicator.js, line 535: uncaught exception: out of memory
+out of memory: 0x0000000000001010 bytes requestedout of memory: 0x0000000000001500 bytes requested
+
+out of memory: 0x0000000000001500 bytes requested
+out of memory: 0x0000000000001000 bytes requested
+out of memory: 0x0000000000001000 bytes requested
+1628102560441	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\EF4F~1\\AppData\\Local\\Temp\\rust_mozprofile0SRTuB"
+1628102560735	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\\u043C\u0430\u043A\u0441\\AppData\\Local\\Temp\\rust_mozprofile0SRTuB\\search.json.mozlz4", (void 0)))
+1628102562108	Marionette	INFO	Listening on port 53728
+1628102562570	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.rishonlezion.muni.il/Scripts/Functions.js, line 886: unreachable code after return statement
+1628102569099	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1628102680873	Marionette	INFO	Stopped listening on port 53728
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
