@@ -20,17 +20,17 @@ def log(s,t=None):
 
 if __name__ == '__main__':
     sf = pb.Get_Data()
-    schedule.every().sunday.at("13:00").do(sf.send_form_setup)
+    schedule.every().sunday.at("12:00").do(sf.send_form_setup)
     schedule.every().sunday.at("15:00").do(sf.send_form_setup)  
-    schedule.every().monday.at("12:45").do(sf.send_form_setup)
+    schedule.every().monday.at("12:01").do(sf.send_form_setup)
     schedule.every().monday.at("15:00").do(sf.send_form_setup)
-    schedule.every().tuesday.at("13:00").do(sf.send_form_setup)
-    schedule.every().tuesday.at("20:30").do(sf.send_form_setup)
-    schedule.every().wednesday.at("12:45").do(sf.send_form_setup)
-    schedule.every().wednesday.at("17:40").do(sf.send_form_setup)
-    schedule.every().thursday.at("13:45").do(sf.send_form_setup)
+    schedule.every().tuesday.at("12:02").do(sf.send_form_setup)
+    schedule.every().tuesday.at("15:00").do(sf.send_form_setup)
+    schedule.every().wednesday.at("12:01").do(sf.send_form_setup)
+    schedule.every().wednesday.at("15:00").do(sf.send_form_setup)
+    schedule.every().thursday.at("12:02").do(sf.send_form_setup)
     schedule.every().thursday.at("15:00").do(sf.send_form_setup)
-    schedule.every().friday.at("10:45").do(sf.send_form_setup)
+    schedule.every().friday.at("12:02").do(sf.send_form_setup)
     
     while True:
         schedule.run_pending()

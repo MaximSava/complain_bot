@@ -32,12 +32,10 @@ requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
 
 import time
 import random
-
 import sys
 import os
 from twocaptcha import TwoCaptcha
 import urllib
-
 from pytz import utc,timezone,country_timezones
 
 
@@ -238,8 +236,7 @@ class Get_Data:
             #driver = Get_Data().setup_selenium(url)
             driver = get_driver
             
-            #fill form
-            
+            #fill form            
             driver.find_element_by_xpath(xpath_rehov).send_keys(form_data['rehov'])
             driver.find_element_by_xpath(xpath_house_number).send_keys(form_data['house_number'])
             driver.find_element_by_xpath(xpath_complain_window).send_keys(form_data['teur_tluna'])
@@ -279,10 +276,10 @@ class Get_Data:
     def __call__(self):
         self.send_form_setup()
              
-
+'''
 if __name__ == '__main__':
     
-    Get_Data().send_form_setup()
+    #Get_Data().send_form_setup()
     #sched = BackgroundScheduler(daemon=True)
     #il_timezone = timezone('Asia/Jerusalem')
     #sf = Get_Data()
@@ -292,7 +289,7 @@ if __name__ == '__main__':
 else:
     print('File not executed')    
     
-'''    
+   
 #driver = Get_Data().setup_selenium(url_moked)
 #driver = Get_Data().setup_selenium(url_moked)
 #captcha_solve = Get_Data().captcha_bypass(driver,url_with_captcha,key)
