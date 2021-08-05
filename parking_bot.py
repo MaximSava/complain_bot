@@ -147,7 +147,7 @@ class Get_Data:
         binary = FirefoxBinary(os.environ.get("FIREFOX_BIN"))
         #binary = FirefoxBinary(r"C:\Users\макс\AppData\Local\Mozilla Firefox\firefox.exe")
         options = Options()
-        options.set_headless(headless=False)
+        options.set_headless(headless=True)
         options.binary = binary
         #fp_profile = r"C:\Users\макс\AppData\Local\Mozilla\Firefox\Profiles\v6axkke0.default"
         #fp = webdriver.FirefoxProfile(fp_profile)
