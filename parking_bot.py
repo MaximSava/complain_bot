@@ -153,7 +153,7 @@ class Get_Data:
         #fp = webdriver.FirefoxProfile(fp_profile)
         #profile = webdriver.FirefoxProfile(fp) 
         fp = webdriver.FirefoxProfile()        
-        driver = webdriver.Firefox(firefox_options=options,options=options,capabilities=capabilities,firefox_profile=fp, executable_path = os.environ.get('GECKODRIVER_PATH'))
+        driver = webdriver.Firefox(firefox_options=options,options=options,capabilities=capabilities,firefox_profile=fp, executable_path = os.environ.get("GECKODRIVER_PATH"))
         #driver = webdriver.Firefox(firefox_binary=binary,firefox_options=options,options=options,capabilities=capabilities,firefox_profile=fp, executable_path = 'geckodriver')
         driver.set_window_size(1280, 1024)
         
