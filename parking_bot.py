@@ -61,8 +61,9 @@ key = "c844c15198652c277892e5f9a4b35028"
 
 form_data = {
         'rehov':"החייל האלמוני",
-        'house_number':"6",
+        'house_number':random.randint(6,8),
         'teur_tluna':"רכבים לא מאזור חונים. מבקש לטפל. תודה",
+        'teur_tluna_nikaion':"מעבר מרחוב החייל האלמוני לפארק הבנים לא נקי.מבקש לטפל",
         'surname':"ס",
         'name':"מקס",
         'rehov_of_complainer':"החייל האלמוני",
@@ -72,7 +73,12 @@ form_data = {
         'telefon_without_area_code': '6180349',
         'email_of_complainer':"maximbt@gmail.com"
         
+        
         }
+
+
+
+#form_data['house_number']
 
 class Get_Data:
     
@@ -152,16 +158,14 @@ class Get_Data:
         #profile = webdriver.FirefoxProfile(fp) 
         fp = webdriver.FirefoxProfile()        
         driver = webdriver.Firefox(firefox_options=options,options=options,capabilities=capabilities,firefox_profile=fp, executable_path = os.environ.get("GECKODRIVER_PATH"))
-        #driver = webdriver.Firefox(firefox_binary=binary,firefox_options=options,options=options,capabilities=capabilities,firefox_profile=fp, executable_path = 'geckodriver')
+        #driver = webdriver.Firefox(firefox_binary=binary,firefox_options=options,options=options,capabilities=capabilities,firefox_profile=fp, executable_path = 'geckodriver.exe')
         driver.set_window_size(1280, 1024)
         
         driver.get(url)
         
         
         return driver  
-    
-       
-    
+  
     def captcha_bypass(self,driver,url_with_captcha,key):
             
             captcha_image_url = url_with_captcha
@@ -185,8 +189,7 @@ class Get_Data:
             
             #example 2captcha site url
             #https://2captcha.com/in.php?key=1abc234de56fab7c89012d34e56fa7b8&method=userrecaptcha&googlekey=6Le-wvkSVVABCPBMRTvw0Q4Muexq1bi0DJwx_mJ-&pageurl=http://mysite.com/page/with/recaptcha
-            
-                     
+                   
             #submit url to 2captcha site
             s = requests.Session()
             time.sleep(1)
@@ -225,22 +228,17 @@ class Get_Data:
             else:
                 self.log("Submit Url Error ")
                 
-                
-                
-                
+               
     def fill_form(self,get_driver,token_answer=0):
             
             #url = "https://validate.perfdrive.com/ccb4768f5e2ea98586d13473d71efc83/captcha?ssa=3beefd4f-1d31-41d6-bc9d-bb8c3c0f72f0&ssb=2ih111iimg1cp30bb65mhl6e6&ssc=https%3A%2F%2Fwww.yad2.co.il%2Fapi%2Fpre-load%2FgetFeedIndex%2Frealestate%2Frent%3Fcity%3D8300%26property%3D1%26page%3D2%26rooms%3D2-2%26price%3D2000-4000%26compact-req%3D1%26forceLdLoad%3Dtrue&ssd=124595643431258&sse=bpbbaconnngcekd&ssf=7f7c6c69d4ebdf1a7f421a5b40b29c21eaf24bf7&ssg=a8b0d72d-9181-4008-9945-2b864d61bb0b&ssh=37df8d94-6d76-44c7-9fc9-6504c29822cf&ssi=fd41f73e-bhcz-4b8a-bff2-088667967c28&ssj=a1eacd31-796c-46f7-9cd3-04cb04f0c1f6&ssk=support@shieldsquare.com&ssl=104722949697&ssm=46048851464827762107099549727023&ssn=866c84a8acee2322b66e50f8ca75531917e69245543b-e395-4131-ae6f71&sso=f7cfce49-1a0960bf66d1ce324f24a422c6001376a5e927c6b079b2b4&ssp=05425821621599676097159965843770285&ssq=24911354055125050285240551435594089358110&ssr=MjEyLjIzNS45OC4xNDA=&sss=Chrome/5.0%20(iPhone;%20U;%20CPU%20iPhone%20OS%203_0%20like%20Mac%20OS%20X;%20en-us)%20AppleWebKit/528.18%20(KHTML,%20like%20Gecko)%20Version/4.0%20Mobile/7A341%20Safari/528.16&sst=Mozilla/5.0%20(Windows%20NT%2010.0;%20Win64;%20x64)%20AppleWebKit/537.36%20(KHTML,%20like%20Gecko)%20Chrome/74.0.3729.169%20Safari/537.36&ssu=Mozilla/5.0%20(compatible;%20Yahoo!%20Slurp;%20http://help.yahoo.com/help/us/ysearch/slurp)&ssv=tvvltosnmu@l3rl&ssw=&ssx=633440154012360&ssy=ebhmdbhada@bapfbopfpohpcjbocfeimjfpgbkan&ssz=ac34c7c42aaf0b1"
-             
-            
+          
             #driver = Get_Data().setup_selenium(url)
-            driver = get_driver
-            
+            driver = get_driver           
             #fill form            
             driver.find_element_by_xpath(xpath_rehov).send_keys(form_data['rehov'])
             driver.find_element_by_xpath(xpath_house_number).send_keys(form_data['house_number'])
-            driver.find_element_by_xpath(xpath_complain_window).send_keys(form_data['teur_tluna'])
-            
+            driver.find_element_by_xpath(xpath_complain_window).send_keys(form_data['teur_tluna'])            
             driver.find_element_by_xpath(xpath_surname).send_keys(form_data['surname'])
             driver.find_element_by_xpath(xpath_rehov_complainer).send_keys(form_data['rehov_of_complainer'])
             driver.find_element_by_xpath(xpath_areacode).clear()
@@ -257,9 +255,7 @@ class Get_Data:
             sleep(5)
             
             self.log("Complain Form sended to Moked")
-            driver.close
-
-
+            driver.quit()
               
     def send_form_setup(self):
             
@@ -273,6 +269,7 @@ class Get_Data:
             answer_site = self.fill_form(driver,captcha_solve)
             print(answer_site)
             return answer_site
+
         
     def __call__(self):
         self.send_form_setup()
@@ -292,6 +289,7 @@ else:
     
    
 #driver = Get_Data().setup_selenium(url_moked)
+driver.quit()    
 #driver = Get_Data().setup_selenium(url_moked)
 #captcha_solve = Get_Data().captcha_bypass(driver,url_with_captcha,key)
             
