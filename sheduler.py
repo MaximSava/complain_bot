@@ -31,6 +31,7 @@ if __name__ == '__main__':
     schedule.every().thursday.at("12:02").do(sf.send_form_setup)
     schedule.every().thursday.at("15:00").do(sf.send_form_setup)
     schedule.every().friday.at("12:02").do(sf.send_form_setup)
+    schedule.every().week.at("09:00").do(sf.send_form_setup)
     
     while True:
         schedule.run_pending()
