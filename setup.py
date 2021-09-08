@@ -6,11 +6,10 @@ Created on Tue Aug  3 09:17:14 2021
 """
 
 from setuptools import setup
+import subprocess
 
 setup(
     install_requires=['requests', 'wheel'],
 )
-
-import subprocess
 
 subprocess.run('python -m pip install 2captcha-python', shell=True)
