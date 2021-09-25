@@ -63,10 +63,10 @@ form_data = {
     'name': "מקס",
     'rehov_of_complainer': "החייל האלמוני",
     'bait_of_complainer': "7",
-    'telefon_of_complainer': "0526180348",
-    'area_code': '052',
-    'telefon_without_area_code': '6180348',
-    'email_of_complainer': "maximbt@gmail.com"
+    'telefon_of_complainer': TEL_NUMBER,
+    'area_code': AREA_CODE,
+    'telefon_without_area_code': TEL_ONLY,
+    'email_of_complainer': EMAIL_ADDRESS
 }
 
 
