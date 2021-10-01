@@ -25,16 +25,16 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - name: Git Clone our repo
-      - uses: actions/checkout@v2
+    - name: Git Clone our repo
+      uses: actions/checkout@v2
       
-      - name: Create Zip Deployment package
-        run: zip -r  ${{env.DEPLOY_PACKAGE_NAME}} ./ -x *.git*
+    - name: Create Zip Deployment package
+      run: zip -r  ${{env.DEPLOY_PACKAGE_NAME}} ./ -x *.git*
 
       # Runs a single command using the runners shell -x *.git*
       
-      - name: Run a one-line script
-        run: echo Hello, world!
+    - name: Run a one-line script
+      run: echo Hello, world!
 
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
