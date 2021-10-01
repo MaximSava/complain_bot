@@ -2,11 +2,11 @@
 
 name: CI-CD Pipline to python app
 env:
-  AWS_REGION: "us-east-1"                   # set this to your preferred AWS region, e.g. us-west-1
-  EB_PACKAGE_S3_PACKAGE_NAME: "complaint_bot_package"   # containerDefinitions section of your task definition
-  EB_APPLICATION_NAME: "Complaint_Bot"
-  EB_ENVIRONMENT_NAME: "Complaint_Bot_Env"
-  DEPLOY_PACKAGE_NAME: "complaint_bot${{ github.sha }}.zip"
+  AWS_REGION                : "us-east-1"
+  EB_PACKAGE_S3_PACKAGE_NAME: "complaint.bot.package"
+  EB_APPLICATION_NAME       : "Complaint_Bot"
+  EB_ENVIRONMENT_NAME       : "Complaint_Bot_Env"
+  DEPLOY_PACKAGE_NAME       : "complaint_bot${{ github.sha }}.zip"
 
 
 # Controls when the workflow will run
@@ -30,12 +30,22 @@ jobs:
       
     - name: Create Zip Deployment package
       run: zip -r  ${{env.DEPLOY_PACKAGE_NAME}} ./ -x *.git*
-
+      
+    - name: configure AWS credentials
+      uses: aws-actions/configure-aws-credentials@v1
+      with: 
+        aws-access-key-id    : ${{secrets.MY_AWS_ACCESS_KEY}}
+        aws-secret-access-key: ${{secrets.MY_AWS_SECRETS_KEY}}
+        aws-region           : ${{env.AWS.REGION}}
+        
+    - name: CopyDeployment Package to S3 Bucket
+      run: aws s3 cp ${{env.DEPLOY_PACKAGE_NAME}} s3://${{envEB_PACKAGE_S3_PACKAGE_NAME}}/
+        
       # Runs a single command using the runners shell -x *.git*
       
-    - name: Run a one-line script
-      run: echo Hello, world!
-
+    - name: Ci finish message
+      run: echo "Ci part finished successfully"
+    
       # Runs a set of commands using the runners shell
     - name: Run a multi-line script
       run: |
