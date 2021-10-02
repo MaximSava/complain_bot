@@ -5,7 +5,7 @@ env:
   AWS_REGION                : "us-east-1"
   EB_PACKAGE_S3_PACKAGE_NAME: "complaint.bot.package"
   EB_APPLICATION_NAME       : "Complaint_Bot"
-  EB_ENVIRONMENT_NAME       : "Complaint_Bot_Env"
+  EB_ENVIRONMENT_NAME       : "Complaintbot-env"
   DEPLOY_PACKAGE_NAME       : "complaint_bot${{ github.sha }}.zip"
 
 
@@ -51,3 +51,34 @@ jobs:
       run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+          
+
+  # This workflow contains a single job called "build"
+  my_cd_part:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+    needs: [my_ci_part]
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+    
+    - name: configure AWS credentials
+      uses: aws-actions/configure-aws-credentials@v1
+      with: 
+        aws-access-key-id    :  ${{ secrets.MY_AWS_ACCESS_KEY }}
+        aws-secret-access-key:  ${{ secrets.MY_AWS_SECRET_KEY }}
+        aws-region           :  ${{ env.AWS_REGION }}
+        
+    - name: Create New Elastic BeanStalk Application
+      run: |
+        aws elasticbeanstalk create-application-version \
+        --aplication-name ${{ env.EB_APPLICATION_NAME}}
+        --source-bundle S3Bucket="${{ EB_PACKAGE_S3_PACKAGE_NAME }}",S3key="${{DEPLOY_PACKAGE_NAME}}" \
+        --version-label "Ver-${{ github.sha }}" \
+        --description "CommitSHA-${{ github.sha }}"
+        
+    - name: Deploy New Elastik BeanStalk Application
+      run:  aws elastickbeanstalk update-environment --environment-name ${{ env.EB_ENVIRONMENT_NAME}} --version-label "Ver-${{ github.sha }}"
+      
+    - name: Print Cd finished
+      run: echo "Cd Pipeline finished successfully!"
