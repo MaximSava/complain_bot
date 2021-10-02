@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: CI-CD Pipline to python app
+name: CI-CD Pipeline to python app
 env:
   AWS_REGION                : "us-east-1"
   EB_PACKAGE_S3_PACKAGE_NAME: "complaint.bot.package"
