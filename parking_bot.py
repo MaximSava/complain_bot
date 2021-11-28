@@ -7,27 +7,18 @@ Created on Sat Jul 24 12:18:05 2021
 This bot can send complain form to rishonlezion moked site
 
 """
-# import logging
 
 import time
 from datetime import datetime
 from time import sleep
-
 from base64 import b64encode
-# from PIL import Image
-
 from selenium import webdriver
-# from selenium.webdriver import Firefox
 from selenium.webdriver.firefox.firefox_binary import FirefoxBinary
 from selenium.webdriver.firefox.options import Options
-# from selenium.webdriver.common.by import By
 import requests
 from requests.packages.urllib3.exceptions import InsecureRequestWarning
 import random
 import os
-
-# from twocaptcha import TwoCaptcha
-
 requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
 
 # xpath from moked site
@@ -60,7 +51,7 @@ form_data = {
     'teur_tluna': "רכבים לא מאזור חונים. מבקש לטפל. תודה",
     'teur_tluna_nikaion': "מעבר מרחוב החייל האלמוני לפארק הבנים לא נקי.מבקש לטפל",
     'surname': "ס",
-    'name': "מקס",
+    'name': "יוסי",
     'rehov_of_complainer': "החייל האלמוני",
     'bait_of_complainer': "7",
     'telefon_of_complainer': TEL_NUMBER,
